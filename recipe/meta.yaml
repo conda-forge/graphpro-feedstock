@@ -1,5 +1,5 @@
 {% set name = "graphpro" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 713b5fb65bf9f81b05fbb143181365a582785c32c80ec6687f02a88d8f7cfbf7
+  sha256: c40ff0acb2a8fce71dd60663d8e428a2a61d8567b581529c312fcb3da888c97c
 
 
 build:
